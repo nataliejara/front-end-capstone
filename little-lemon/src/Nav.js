@@ -1,9 +1,12 @@
-import React from "react"
+import React from "react";
+import './App.css';
+import logo from "./images/Logo .svg";
 
 
-function Nav() {
+const Nav = () => {
     return (
-        <nav>
+        <nav className = "navbar"> 
+            <img src = {logo} alt = ""/>
             <ul>
                 <li><a href="index.html">Home</a></li>
                 <li><a href="about.html">About</a></li>
@@ -13,7 +16,7 @@ function Nav() {
                 <li><a href="login">Login</a></li>
             </ul>
         </nav>
-    )
+    );
 };
 
 export default Nav;

@@ -10,8 +10,8 @@ import Footer from "./Footer";
 function App() {
   return (
     <React.Fragment>
-      <Header />
       <Nav />
+      <Header />
       <Main />
       <Footer />
     </React.Fragment>

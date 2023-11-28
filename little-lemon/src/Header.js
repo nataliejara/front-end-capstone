@@ -1,13 +1,26 @@
 import React from "react"
-import companyLogo from "./logo.jpg";
+import './App.css';
+import headerImage from "./images/restaurantfood.jpg";
 
 
-function Header () {
+const Header = () => {
     return (
-        <header>
-            <img src={companyLogo} alt="" />
+        <header className = "header">
+            <section className = "banner">
+                <div>
+                    <h2>Little Lemon</h2>
+                    <h3>Chicago</h3>
+                    <p>We are a family owned Mediterranean restaurant, focused on traditional recipes served with a modern twist.</p>
+                    <button>Reserve Table</button>
+                </div>
+
+                <div className="header-img">
+                    <img src={headerImage} alt="" />
+                </div>
+                
+            </section>
         </header>
-    )
+    );
 };
 
 export default Header;

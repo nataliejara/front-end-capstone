@@ -1,12 +1,20 @@
 import React from "react";
+import './App.css';
+import logo from "./images/Logo .svg"
 
 
-function Footer() {
+const Footer = () => {
     return (
         <footer>
-            <p>Copyright Little Lemon</p>
+            <section>
+                <div className = "info">
+                    <img src = {logo} alt=""/>
+                    <p>We are a family owned Mediterranean restaurant, focused on traditional recipes served with a moden twist.</p>
+
+                </div>
+            </section>
         </footer>
-    )
-}
+    );
+};
 
 export default Footer;

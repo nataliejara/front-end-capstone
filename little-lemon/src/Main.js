@@ -1,12 +1,13 @@
 import React from "react"
+import './App.css';
 
 
-function Main() {
+const Main = () => {
     return (
         <main>
             <p>Important stuff goes here</p>
         </main>
-    )
-}
+    );
+};
 
 export default Main;
